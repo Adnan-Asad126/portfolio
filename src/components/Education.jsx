@@ -27,7 +27,7 @@ const EducationSection = () => {
       degree: "Intermediate (HSSC)",
       school: "Punjab Daanish School for boys, Rahim Yar Khan",
       mascot: "📗",
-      year: "2021 - 2023",
+      year: "2015 - 2017",
       achievements: ["Percentage: 86.3%", "Subject: ICS"],
       skills: ["Mathematics", "Computer", "Physics"],
       description:
