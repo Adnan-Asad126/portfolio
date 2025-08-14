@@ -14,136 +14,98 @@ const ProjectShowcase = () => {
   const projects = [
     {
       title: "Quicksignage E-commerce Platform",
-      description: "A comprehensive e-commerce platform for custom signage solutions, built with Laravel backend and modern frontend technologies. Features include custom order management, dynamic pricing, and seamless payment integration.",
+      description:
+        "A comprehensive e-commerce platform for custom signage solutions, built with Laravel backend and modern frontend technologies. Features include custom order management, dynamic pricing, and seamless payment integration.",
       tags: ["Laravel", "Shopify", "E-commerce", "Custom Orders"],
       links: {
         github: "https://github.com/adnanasad/quicksignage",
         demo: "https://quicksignage.com/",
       },
-      image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      image: "src/assets/images/quicksignage.png",
       featured: true,
     },
     {
       title: "Talkless Super Admin Dashboard",
-      description: "Advanced desktop application admin panel with sophisticated call and meeting management features. Built with React and modern UI components for seamless user experience and comprehensive system control.",
+      description:
+        "Advanced desktop application admin panel with sophisticated call and meeting management features. Built with React and modern UI components for seamless user experience and comprehensive system control.",
       tags: ["React", "Admin Dashboard", "Desktop App", "Real-time"],
       links: {
         github: "https://github.com/adnanasad/talkless-admin",
         demo: "https://talkless-superadmin.vercel.app/",
       },
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      image: "src/assets/images/talkless.png",
       featured: true,
     },
     {
       title: "ZNet Realty Platform",
-      description: "A dynamic real estate application built with React and Laravel API, emphasizing performance and modularity for property management and listings.",
+      description:
+        "A dynamic real estate application built with React and Laravel API, emphasizing performance and modularity for property management and listings.",
       tags: ["React", "Laravel API", "Real Estate"],
       links: {
         github: "https://github.com/username/znet-realty",
         demo: "https://znetrealty.com/",
       },
-      image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      image: "src/assets/images/real-estate.png",
       featured: false,
     },
     {
       title: "Belaaz E-commerce Solution",
-      description: "An API-centric web application focused on performance and scalability for modern e-commerce experiences.",
+      description:
+        "An API-centric web application focused on performance and scalability for modern e-commerce experiences.",
       tags: ["React", "API", "E-commerce"],
       links: {
         github: "https://github.com/username/belaaz",
         demo: "https://belaaz.com/",
       },
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-      featured: false,
-    },
-    {
-      title: "Seseo Digital Agency",
-      description: "A modern digital agency website built with clean HTML5, CSS3, and Bootstrap, showcasing innovative design patterns and responsive architecture.",
-      tags: ["HTML5", "CSS3", "Bootstrap", "Responsive"],
-      links: {
-        github: "https://github.com/username/seseo",
-        demo: "https://www.seseo.dk/",
-      },
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      image: "src/assets/images/news.png",
       featured: false,
     },
     {
       title: "Full-Stack Web Application",
-      description: "A modern web solution built with a focus on simplicity and user experience, featuring dynamic UI updates and robust backend integration.",
-      tags: ["React", "Node.js", "Full-Stack"],
+      description:
+        "A modern web solution built with a focus on simplicity and user experience, featuring dynamic UI updates and robust backend integration.",
+      tags: ["Bootstrap", "Laravel", "Full-Stack"],
       links: {
-        github: "https://github.com/username/fullstack-app",
-        demo: "https://demo-app.com",
+        github: "https://github.com/username/alabeera",
+        demo: "alabeerainternationalinstitute.com",
       },
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      image: "src/assets/images/alabeera.png",
       featured: false,
     },
     {
-      title: "Next.js Enterprise Solution",
-      description: "A next-generation project leveraging the power of Next.js and server-side rendering for optimal performance and SEO.",
+      title: "Deus Forever Enterprise Solution",
+      description:
+        "A next-generation project leveraging the power of Next.js and server-side rendering for optimal performance and SEO.",
       tags: ["Next.js", "React", "SSR", "Enterprise"],
       links: {
-        github: "https://github.com/username/nextjs-enterprise",
-        demo: "https://nextjs-demo.com",
+        github: "https://github.com/username/deusforever",
+        demo: "https://deusforever.net",
       },
-      image: "https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      image: "src/assets/images/deusforever.png",
       featured: false,
     },
     {
-      title: "Creative Portfolio Platform",
-      description: "A creative project built to demonstrate innovative design patterns and clean architecture using modern React and Tailwind CSS.",
-      tags: ["React", "Tailwind CSS", "Portfolio", "Creative"],
+      title: "Quicksignage - Figma Design",
+      description:
+        "Complete UI/UX design and interactive prototype for the Quicksignage e-commerce platform.",
+      tags: ["Figma", "UI/UX Design", "E-commerce Design", "Prototyping"],
       links: {
-        github: "https://github.com/username/creative-portfolio",
-        demo: "https://creative-demo.com",
+        figma: "https://www.figma.com/proto/f4qCpI2aAFolyVkbtAyUMF/QuickSignage?node-id=0-1&t=nkUYtJNTg3QbsGFX-1",
       },
-      image: "https://images.unsplash.com/photo-1558655146-d09347e92766?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-      featured: false,
+      image: "src/assets/images/quicksignage.png",
+      featured: true,
     },
     {
-      title: "Laravel API Backend",
-      description: "A TypeScript-powered project delivering enhanced reliability and maintainability with comprehensive API documentation and testing.",
-      tags: ["Laravel", "API", "TypeScript", "Backend"],
+      title: "Talkless - Figma Design",
+      description:
+        "UI/UX design and interactive prototype for Talkless desktop application.",
+      tags: ["Figma", "UI/UX Design", "Desktop App Design", "Prototyping"],
       links: {
-        github: "https://github.com/username/laravel-api",
-        demo: "https://api-demo.com",
+        figma: "https://www.figma.com/design/M7zfdRCjUmPbIK1TAzjNB0/Talkless-Desktop?node-id=0-1&p=f&t=2oU8ROpv0b9z1bqq-0",
       },
-      image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-      featured: false,
+      image: "src/assets/images/talkless.png",
+      featured: true,
     },
-    {
-      title: "Responsive Business Website",
-      description: "A full-stack project combining modern web technologies for a seamless business experience with optimized performance.",
-      tags: ["HTML5", "CSS3", "Bootstrap", "Business"],
-      links: {
-        github: "https://github.com/username/business-site",
-        demo: "https://business-demo.com",
-      },
-      image: "https://images.unsplash.com/photo-1486312338219-ce68e2c6f44d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-      featured: false,
-    },
-    {
-      title: "Modern UI/UX Showcase",
-      description: "A creative venture showcasing modern UI/UX design principles with React and Bootstrap, featuring interactive components and smooth animations.",
-      tags: ["React", "Bootstrap", "UI/UX", "Design"],
-      links: {
-        github: "https://github.com/username/ui-showcase",
-        demo: "https://ui-demo.com",
-      },
-      image: "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-      featured: false,
-    },
-    {
-      title: "Enterprise Web Solution",
-      description: "A comprehensive enterprise solution showcasing modern development practices with React and .NET integration for scalable business applications.",
-      tags: ["React", ".NET", "Enterprise", "Scalable"],
-      links: {
-        github: "https://github.com/username/enterprise-solution",
-        demo: "https://enterprise-demo.com",
-      },
-      image: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-      featured: false,
-    }
   ];
 
   return (
@@ -157,13 +119,13 @@ const ProjectShowcase = () => {
               Featured Projects
             </span>
           </div>
-          
+
           <h2 className="text-5xl md:text-6xl font-black mb-6 leading-tight">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 via-cyan-500 to-blue-400">
               Project Showcase
             </span>
           </h2>
-          
+
           <p className="text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
             Explore a collection of full-stack applications, e-commerce platforms, and innovative solutions
           </p>
@@ -172,18 +134,27 @@ const ProjectShowcase = () => {
         {projects.map((project, index) => {
           const isEven = index % 2 === 0;
           const isFeatured = project.featured;
-          
+
+          // Determine the correct link and label dynamically
+          const link =
+            project.links.figma || project.links.demo || project.links.github;
+          const linkLabel = project.links.figma
+            ? "View Figma"
+            : project.links.demo
+            ? "Live Demo"
+            : "View Code";
+
           return (
             <div
               key={index}
               className={`flex flex-col md:flex-row items-center group rounded-xl p-[3px] ${
-                isFeatured 
-                  ? 'bg-gradient-to-r from-emerald-500 via-cyan-500 to-blue-500' 
-                  : 'bg-gradient-to-r from-cyan-500/50 via-purple-500/50 to-emerald-500/50'
+                isFeatured
+                  ? "bg-gradient-to-r from-emerald-500 via-cyan-500 to-blue-500"
+                  : "bg-gradient-to-r from-cyan-500/50 via-purple-500/50 to-emerald-500/50"
               } bg-[length:400%_400%] animate-gradient-xy hover:bg-[length:100%_100%] transition-all duration-700 shadow-xl hover:shadow-2xl`}
               style={{
                 animationDelay: `${index * 100}ms`,
-                animation: 'slideInUp 0.8s ease-out forwards'
+                animation: "slideInUp 0.8s ease-out forwards",
               }}
             >
               {isEven ? (
@@ -209,29 +180,34 @@ const ProjectShowcase = () => {
                       <div className="flex justify-between items-start">
                         <div>
                           <div className="text-emerald-400 text-sm font-mono mb-2 tracking-wide uppercase">
-                            {isFeatured ? 'Featured Project' : 'Project'}
+                            {isFeatured ? "Featured Project" : "Project"}
                           </div>
                           <CardTitle className="text-slate-100 text-2xl md:text-3xl font-bold leading-tight">
                             {project.title}
                           </CardTitle>
                         </div>
                         <div className="flex gap-4">
-                          <a
-                            href={project.links.github}
-                            className="text-slate-400 hover:text-emerald-400 transition-all duration-300 transform hover:scale-125"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            <Github size={22} />
-                          </a>
-                          <a
-                            href={project.links.demo}
-                            className="text-slate-400 hover:text-emerald-400 transition-all duration-300 transform hover:scale-125"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            <ExternalLink size={22} />
-                          </a>
+                          {project.links.github && !project.links.figma && (
+                            <a
+                              href={project.links.github}
+                              className="text-slate-400 hover:text-emerald-400 transition-all duration-300 transform hover:scale-125"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <Github size={22} />
+                            </a>
+                          )}
+                          {link && (
+                            <a
+                              href={link}
+                              className="text-slate-400 hover:text-emerald-400 transition-all duration-300 transform hover:scale-125"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              title={linkLabel}
+                            >
+                              <ExternalLink size={22} />
+                            </a>
+                          )}
                         </div>
                       </div>
                     </CardHeader>
@@ -261,29 +237,34 @@ const ProjectShowcase = () => {
                       <div className="flex justify-between items-start">
                         <div>
                           <div className="text-emerald-400 text-sm font-mono mb-2 tracking-wide uppercase">
-                            {isFeatured ? 'Featured Project' : 'Project'}
+                            {isFeatured ? "Featured Project" : "Project"}
                           </div>
                           <CardTitle className="text-slate-100 text-2xl md:text-3xl font-bold leading-tight">
                             {project.title}
                           </CardTitle>
                         </div>
                         <div className="flex gap-4">
-                          <a
-                            href={project.links.github}
-                            className="text-slate-400 hover:text-emerald-400 transition-all duration-300 transform hover:scale-125"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            <Github size={22} />
-                          </a>
-                          <a
-                            href={project.links.demo}
-                            className="text-slate-demo.hover:text-emerald-400 transition-all duration-300 transform hover:scale-125"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            <ExternalLink size={22} />
-                          </a>
+                          {project.links.github && !project.links.figma && (
+                            <a
+                              href={project.links.github}
+                              className="text-slate-400 hover:text-emerald-400 transition-all duration-300 transform hover:scale-125"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              <Github size={22} />
+                            </a>
+                          )}
+                          {link && (
+                            <a
+                              href={link}
+                              className="text-slate-400 hover:text-emerald-400 transition-all duration-300 transform hover:scale-125"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              title={linkLabel}
+                            >
+                              <ExternalLink size={22} />
+                            </a>
+                          )}
                         </div>
                       </div>
                     </CardHeader>
@@ -326,18 +307,19 @@ const ProjectShowcase = () => {
 
       <style jsx>{`
         @keyframes slideInUp {
-          0% { 
+          0% {
             opacity: 0;
             transform: translateY(60px) scale(0.95);
           }
-          100% { 
+          100% {
             opacity: 1;
             transform: translateY(0) scale(1);
           }
         }
-        
+
         @keyframes gradient-xy {
-          0%, 100% {
+          0%,
+          100% {
             transform: translate(0%, 0%);
           }
           25% {
@@ -350,7 +332,7 @@ const ProjectShowcase = () => {
             transform: translate(0%, 100%);
           }
         }
-        
+
         .animate-gradient-xy {
           animation: gradient-xy 6s ease infinite;
           background-size: 400% 400%;
