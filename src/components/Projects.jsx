@@ -21,7 +21,7 @@ const ProjectShowcase = () => {
         github: "https://github.com/adnanasad/quicksignage",
         demo: "https://quicksignage.com/",
       },
-      image: "src/assets/images/quicksignage.png",
+      image: "/assets/images/quicksignage.png", // Changed from src/assets/images/
       featured: true,
     },
     {
@@ -33,7 +33,7 @@ const ProjectShowcase = () => {
         github: "https://github.com/adnanasad/talkless-admin",
         demo: "https://talkless-superadmin.vercel.app/",
       },
-      image: "src/assets/images/talkless.png",
+      image: "/assets/images/talkless.png", // Changed from src/assets/images/
       featured: true,
     },
     {
@@ -45,7 +45,7 @@ const ProjectShowcase = () => {
         github: "https://github.com/username/znet-realty",
         demo: "https://znetrealty.com/",
       },
-      image: "src/assets/images/real-estate.png",
+      image: "/assets/images/real-estate.png", // Changed from src/assets/images/
       featured: false,
     },
     {
@@ -57,7 +57,7 @@ const ProjectShowcase = () => {
         github: "https://github.com/username/belaaz",
         demo: "https://belaaz.com/",
       },
-      image: "src/assets/images/news.png",
+      image: "/assets/images/news.png", // Changed from src/assets/images/
       featured: false,
     },
     {
@@ -69,7 +69,7 @@ const ProjectShowcase = () => {
         github: "https://github.com/username/alabeera",
         demo: "alabeerainternationalinstitute.com",
       },
-      image: "src/assets/images/alabeera.png",
+      image: "/assets/images/alabeera.png", // Changed from src/assets/images/
       featured: false,
     },
     {
@@ -81,7 +81,7 @@ const ProjectShowcase = () => {
         github: "https://github.com/username/deusforever",
         demo: "https://deusforever.net",
       },
-      image: "src/assets/images/deusforever.png",
+      image: "/assets/images/deusforever.png", // Changed from src/assets/images/
       featured: false,
     },
     {
@@ -92,7 +92,7 @@ const ProjectShowcase = () => {
       links: {
         figma: "https://www.figma.com/proto/f4qCpI2aAFolyVkbtAyUMF/QuickSignage?node-id=0-1&t=nkUYtJNTg3QbsGFX-1",
       },
-      image: "src/assets/images/quicksignage.png",
+      image: "/assets/images/quicksignage.png", // Changed from src/assets/images/
       featured: true,
     },
     {
@@ -103,7 +103,7 @@ const ProjectShowcase = () => {
       links: {
         figma: "https://www.figma.com/design/M7zfdRCjUmPbIK1TAzjNB0/Talkless-Desktop?node-id=0-1&p=f&t=2oU8ROpv0b9z1bqq-0",
       },
-      image: "src/assets/images/talkless.png",
+      image: "/assets/images/talkless.png", // Changed from src/assets/images/
       featured: true,
     },
   ];
@@ -165,6 +165,10 @@ const ProjectShowcase = () => {
                       src={project.image}
                       alt={project.title}
                       className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
+                      onError={(e) => {
+                        // Fallback to a placeholder or hide the image
+                        e.target.src = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjMzMzIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxOCIgZmlsbD0iIzk5OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPkltYWdlIE5vdCBGb3VuZDwvdGV4dD48L3N2Zz4=";
+                      }}
                     />
                     {isFeatured && (
                       <div className="absolute top-4 right-4 bg-gradient-to-r from-emerald-500 to-cyan-500 text-white px-3 py-1 rounded-full text-xs font-bold">
@@ -291,6 +295,10 @@ const ProjectShowcase = () => {
                       src={project.image}
                       alt={project.title}
                       className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
+                      onError={(e) => {
+                        // Fallback to a placeholder or hide the image
+                        e.target.src = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjMzMzIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxOCIgZmlsbD0iIzk5OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPkltYWdlIE5vdCBGb3VuZDwvdGV4dD48L3N2Zz4=";
+                      }}
                     />
                     {isFeatured && (
                       <div className="absolute top-4 left-4 bg-gradient-to-r from-emerald-500 to-cyan-500 text-white px-3 py-1 rounded-full text-xs font-bold">
