@@ -2,6 +2,14 @@ import React from "react";
 import { Github, ExternalLink } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
+// Import all your images
+import quicksignageImg from "../assets/images/quicksignage.png";
+import talklessImg from "../assets/images/talkless.png";
+import realEstateImg from "../assets/images/real-estate.png";
+import newsImg from "../assets/images/news.png";
+import alabeeraImg from "../assets/images/alabeera.png";
+import deusforeverImg from "../assets/images/deusforever.png";
+
 const MacOsButtons = () => (
   <div className="flex gap-2 mb-4">
     <div className="w-3 h-3 rounded-full bg-red-500 hover:bg-red-600 transition-colors shadow-md" />
@@ -21,7 +29,7 @@ const ProjectShowcase = () => {
         github: "https://github.com/adnanasad/quicksignage",
         demo: "https://quicksignage.com/",
       },
-      image: "/assets/images/quicksignage.png", // Changed from src/assets/images/
+      image: quicksignageImg,
       featured: true,
     },
     {
@@ -33,7 +41,7 @@ const ProjectShowcase = () => {
         github: "https://github.com/adnanasad/talkless-admin",
         demo: "https://talkless-superadmin.vercel.app/",
       },
-      image: "/assets/images/talkless.png", // Changed from src/assets/images/
+      image: talklessImg,
       featured: true,
     },
     {
@@ -45,7 +53,7 @@ const ProjectShowcase = () => {
         github: "https://github.com/username/znet-realty",
         demo: "https://znetrealty.com/",
       },
-      image: "/assets/images/real-estate.png", // Changed from src/assets/images/
+      image: realEstateImg,
       featured: false,
     },
     {
@@ -57,7 +65,7 @@ const ProjectShowcase = () => {
         github: "https://github.com/username/belaaz",
         demo: "https://belaaz.com/",
       },
-      image: "/assets/images/news.png", // Changed from src/assets/images/
+      image: newsImg,
       featured: false,
     },
     {
@@ -69,7 +77,7 @@ const ProjectShowcase = () => {
         github: "https://github.com/username/alabeera",
         demo: "alabeerainternationalinstitute.com",
       },
-      image: "/assets/images/alabeera.png", // Changed from src/assets/images/
+      image: alabeeraImg,
       featured: false,
     },
     {
@@ -81,7 +89,7 @@ const ProjectShowcase = () => {
         github: "https://github.com/username/deusforever",
         demo: "https://deusforever.net",
       },
-      image: "/assets/images/deusforever.png", // Changed from src/assets/images/
+      image: deusforeverImg,
       featured: false,
     },
     {
@@ -92,7 +100,7 @@ const ProjectShowcase = () => {
       links: {
         figma: "https://www.figma.com/proto/f4qCpI2aAFolyVkbtAyUMF/QuickSignage?node-id=0-1&t=nkUYtJNTg3QbsGFX-1",
       },
-      image: "/assets/images/quicksignage.png", // Changed from src/assets/images/
+      image: quicksignageImg,
       featured: true,
     },
     {
@@ -103,7 +111,7 @@ const ProjectShowcase = () => {
       links: {
         figma: "https://www.figma.com/design/M7zfdRCjUmPbIK1TAzjNB0/Talkless-Desktop?node-id=0-1&p=f&t=2oU8ROpv0b9z1bqq-0",
       },
-      image: "/assets/images/talkless.png", // Changed from src/assets/images/
+      image: talklessImg,
       featured: true,
     },
   ];
@@ -166,7 +174,7 @@ const ProjectShowcase = () => {
                       alt={project.title}
                       className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
                       onError={(e) => {
-                        // Fallback to a placeholder or hide the image
+                        // Fallback to a placeholder if image fails to load
                         e.target.src = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjMzMzIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxOCIgZmlsbD0iIzk5OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPkltYWdlIE5vdCBGb3VuZDwvdGV4dD48L3N2Zz4=";
                       }}
                     />
@@ -296,7 +304,7 @@ const ProjectShowcase = () => {
                       alt={project.title}
                       className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-500"
                       onError={(e) => {
-                        // Fallback to a placeholder or hide the image
+                        // Fallback to a placeholder if image fails to load
                         e.target.src = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjMzMzIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxOCIgZmlsbD0iIzk5OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPkltYWdlIE5vdCBGb3VuZDwvdGV4dD48L3N2Zz4=";
                       }}
                     />
